@@ -1659,6 +1659,11 @@ mark {
     text-align: center
 }
 
+.text-center-modif-1{
+    color: black;
+    opacity: 1;
+}
+
 .text-justify {
     text-align: justify
 }
