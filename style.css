@@ -375,6 +375,7 @@ a:hover {
     z-index: 2;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -690,8 +691,9 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 15px;
 }
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -1019,6 +1021,8 @@ h4 {
     .tc-white-modif{
         font-size: 20px;
     }
+
+    
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1091,4 +1095,13 @@ h4 {
     .navbar-brand img{
         width: 180px;
     }
+}
+
+.tc-white-contact{
+    color: black !important;
+}
+
+.p-footer-modif-1{
+    font-size: 14px;
+    color: black !important;
 }
