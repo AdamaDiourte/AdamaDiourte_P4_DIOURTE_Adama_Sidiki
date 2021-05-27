@@ -2310,6 +2310,7 @@ pre code {
     .col-sm-12 {
         width: 100%
     }
+    
     .col-sm-11 {
         width: 91.66666667%
     }
@@ -2460,6 +2461,65 @@ pre code {
     .col-sm-offset-0 {
         margin-left: 0
     }
+
+    .social{
+        max-width: 100%;
+        margin: auto;
+    }
+
+
+    .partenaires{
+        width: 100%;
+    }
+
+    .partenaires-modif-1{
+        width: 20%;
+    }
+
+    .partenaires, ul li a{
+        justify-content: left;
+        align-items: center;
+        transition: .7s color;
+        
+    }
+
+    .partenaires ul li:hover a {
+        justify-content: left;
+        align-items: center;
+        color: white !important;
+        
+    }
+
+
+
+
+    .icone-reseaux-sociaux, .fa {
+        margin-right: 10px;
+       
+    
+    }
+
+    .footer-element, .titre-footer, a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .social {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .p-footer-modif-1{
+        font-size: 20px !important;
+    }
+
+    .titre-footer{
+        font-size: 30px;
+    }
+
+
 }
 
 @media (min-width:992px) {
@@ -5104,8 +5164,14 @@ textarea.input-group-sm>.input-group-btn>.btn {
         width: auto;
         border-top: 0;
         -webkit-box-shadow: none;
-        box-shadow: none
+        box-shadow: none;
+        
     }
+
+    .navbar-collapse ul li:hover a{
+        text-decoration: underline;
+    }
+
     .navbar-collapse.collapse {
         display: block !important;
         height: auto !important;
