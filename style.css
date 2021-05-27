@@ -851,11 +851,11 @@ h4 {
 } */
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpeg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpeg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 .titre-footer{
