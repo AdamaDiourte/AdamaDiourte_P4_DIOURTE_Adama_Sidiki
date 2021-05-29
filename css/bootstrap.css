@@ -16,8 +16,10 @@ img {
     display: block;
     max-width: 100%;
     margin: auto;
-    height: auto
+    max-height: 270px;
 }
+
+
 
 .container {
     padding-right: 15px;
@@ -948,5 +950,7 @@ tbody.collapse.in {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    max-width:100px;
+    height: auto;
 }
